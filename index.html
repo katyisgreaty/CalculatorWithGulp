@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Ping Pong and Math!</title>
+  </head>
+  <body>
+    <form id="ping-pong-form">
+      <label for="goal">Enter a number:</label>
+      <input id="goal" type="number">
+      <button type="submit">Submit</button>
+    </form>
+    <form id="signup">
+      <label for="email">Enter your email:</label>
+      <input id="email" type="text">
+      <button type="submit">Submit</button>
+    </form>
+    <ul id="solution"></ul>
+
+
+
+    <form id="math-form">
+        <div class="form-group">
+          <label for="input1">1st number:</label>
+          <input id="input1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="input2">2nd number:</label>
+          <input id="input2" class="form-control" type="text">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="add" checked>
+            Add
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="subtract">
+            Subtract
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="multiply">
+            Multiply
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="divide">
+            Divide
+          </label>
+        </div>
+        <button type="submit" class="btn btn-success">Go!</button>
+      </form>
+      <div id="output">
+      </div>
+  </body>
+</html>
